@@ -1,0 +1,12 @@
+CYP2D:
+    gene_target : "CYP2D6"
+    gene_grep_pattern : "^#|(CYP2D)"
+    queries:
+        - all :
+            gff_path : 
+            fasta_path : 
+            optional_subset:
+                - HG002 : {contig_names}
+                - GRCh38 : {contig_names}
+  
+    
