@@ -1,6 +1,7 @@
 CYP2D:
     gene_target : "CYP2D6"
     gene_grep_pattern : "^#|(CYP2D)"
+    table : "Master.tbl"
     queries:
         - all :
             gff_path : 
